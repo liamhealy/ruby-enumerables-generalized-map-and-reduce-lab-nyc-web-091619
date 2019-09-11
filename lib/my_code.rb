@@ -9,4 +9,8 @@ def map(array)
   array
 end
 
+def reduce(array)
+  
+end
+
 map([1,2,3,4]){|n| n * -1}
