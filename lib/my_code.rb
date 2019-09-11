@@ -6,6 +6,7 @@ def map(array)
     array[i] = yield(array[i])
     i += 1
   end
+  array
 end
 
 map([1,2,3,4]){|n| n * -1}
