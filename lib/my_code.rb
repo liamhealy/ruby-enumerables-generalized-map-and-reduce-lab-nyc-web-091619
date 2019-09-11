@@ -16,7 +16,7 @@ def reduce(array, starting_point = 0)
     total = yield(array[i], total)
     i += 1
   end
-  total && starting_point
+  total
 end
 
 map([1,2,3,4]){|n| n * -1}
