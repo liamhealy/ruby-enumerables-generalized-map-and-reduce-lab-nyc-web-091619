@@ -8,4 +8,4 @@ def map(array)
   end
 end
 
-map([1,2,3,4]){|i| i * -1}
+map([1,2,3,4]){|n| n * -1}
